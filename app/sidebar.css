@@ -1,0 +1,19 @@
+@media (max-width: 767px) {
+  .sidebar-hidden {
+    display: none;
+  }
+
+  .main-content {
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .sidebar-visible {
+    display: flex;
+  }
+
+  .main-content {
+    padding-left: 16rem; /* 256px */
+  }
+}
